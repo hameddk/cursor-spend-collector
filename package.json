@@ -1,0 +1,43 @@
+{
+  "name": "@hameddk/cursor-spend-collector",
+  "version": "0.1.0",
+  "description": "Pull real spend and usage events from Cursor's Admin API. Per-member spend in cents, granular usage events with model and token data. Pluggable auth, paginated, zero dependencies.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "cursor",
+    "cursor-ide",
+    "spend",
+    "usage",
+    "admin-api",
+    "ai-costs"
+  ],
+  "author": "Hamed Sattari <h@sattari.dk>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hameddk/cursor-spend-collector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hameddk/cursor-spend-collector/issues"
+  },
+  "homepage": "https://github.com/hameddk/cursor-spend-collector#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}

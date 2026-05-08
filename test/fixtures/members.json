@@ -1,0 +1,17 @@
+{
+  "teamMembers": [
+    {
+      "id": "user_1",
+      "email": "alice@example.com",
+      "name": "Alice Example",
+      "role": "admin"
+    },
+    {
+      "id": "user_2",
+      "email": "bob@example.com",
+      "name": "Bob Example",
+      "role": "member"
+    }
+  ],
+  "hasMore": false
+}
